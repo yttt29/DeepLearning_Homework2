@@ -1,0 +1,25 @@
+{
+  "split": "validation",
+  "samples": 10000,
+  "loss": 0.41399380564689636,
+  "accuracy": 0.8548,
+  "macro_recall": 0.855464936873573,
+  "errors": 1452,
+  "classes": [
+    "T-shirt/top",
+    "Trouser",
+    "Pullover",
+    "Dress",
+    "Coat",
+    "Sandal",
+    "Shirt",
+    "Sneaker",
+    "Bag",
+    "Ankle boot"
+  ],
+  "confusion_orientation": "rows=true, columns=predicted",
+  "model": "linear2",
+  "seed": 43,
+  "selected_epoch": 20,
+  "checkpoint_sha256": "a86dc2da64207c110180af725a2a47ca7c61281e1729226c57751f8b071c4788"
+}
