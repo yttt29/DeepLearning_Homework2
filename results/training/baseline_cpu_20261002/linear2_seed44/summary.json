@@ -1,0 +1,11 @@
+{
+  "initial_parameters_sha256": "e89d485452440ce5039c47d9137eef5719488feb601dc0349ecddede19422c75",
+  "model": "linear2",
+  "seed": 44,
+  "parameters": 203530,
+  "best_epoch": 25,
+  "best_val_loss": 0.4178321265220642,
+  "best_val_accuracy": 0.8536,
+  "training_and_validation_seconds": 11.04134591598995,
+  "smoke": false
+}

@@ -1,0 +1,11 @@
+true_class / predicted_class,T-shirt/top,Trouser,Pullover,Dress,Coat,Sandal,Shirt,Sneaker,Bag,Ankle boot
+T-shirt/top,813,1,18,48,5,2,99,0,13,1
+Trouser,3,958,4,25,5,0,3,0,2,0
+Pullover,25,4,747,9,120,1,80,1,13,0
+Dress,25,16,17,852,35,2,44,0,9,0
+Coat,0,1,138,26,731,1,91,0,12,0
+Sandal,0,0,0,1,0,930,0,37,4,28
+Shirt,142,2,136,32,96,1,561,0,29,1
+Sneaker,0,0,0,0,0,50,0,913,0,37
+Bag,7,1,6,9,3,6,13,5,949,1
+Ankle boot,0,0,0,0,0,13,0,31,1,955
