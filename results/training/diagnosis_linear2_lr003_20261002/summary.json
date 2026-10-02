@@ -1,0 +1,35 @@
+[
+  {
+    "initial_parameters_sha256": "7b673e70e8d61d16918a7d6ec9e5c0cea59e98cca4426e70d5dc8061f6a564c6",
+    "model": "linear2",
+    "seed": 42,
+    "parameters": 203530,
+    "best_epoch": 25,
+    "best_val_loss": 0.4152229338169098,
+    "best_val_accuracy": 0.8581,
+    "training_and_validation_seconds": 11.0470989170135,
+    "smoke": false
+  },
+  {
+    "initial_parameters_sha256": "4c764b25b57f5b7074970514a4103e3c5120d0301fe81378fc9ff0bcc2ec73b5",
+    "model": "linear2",
+    "seed": 43,
+    "parameters": 203530,
+    "best_epoch": 27,
+    "best_val_loss": 0.4135339003562927,
+    "best_val_accuracy": 0.8578,
+    "training_and_validation_seconds": 10.767098459007684,
+    "smoke": false
+  },
+  {
+    "initial_parameters_sha256": "e89d485452440ce5039c47d9137eef5719488feb601dc0349ecddede19422c75",
+    "model": "linear2",
+    "seed": 44,
+    "parameters": 203530,
+    "best_epoch": 29,
+    "best_val_loss": 0.4151925001621246,
+    "best_val_accuracy": 0.8544,
+    "training_and_validation_seconds": 10.775288541975897,
+    "smoke": false
+  }
+]

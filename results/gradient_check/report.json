@@ -1,0 +1,583 @@
+{
+  "loss": 2.3057868685881013,
+  "passed": true,
+  "epsilon": 1e-05,
+  "atol": 1e-07,
+  "rtol": 1e-05,
+  "sampling_seed": 43,
+  "summary": {
+    "W1": {
+      "checked": 20,
+      "skipped": 0,
+      "failed": 0,
+      "max_absolute_error": 1.9718843745353265e-11,
+      "max_relative_error": 1.890502145330478e-09
+    },
+    "b1": {
+      "checked": 8,
+      "skipped": 0,
+      "failed": 0,
+      "max_absolute_error": 1.9509005522166945e-11,
+      "max_relative_error": 4.9490399191673105e-09
+    },
+    "W2": {
+      "checked": 20,
+      "skipped": 0,
+      "failed": 0,
+      "max_absolute_error": 2.2262849549981034e-11,
+      "max_relative_error": 7.056700382649776e-09
+    },
+    "b2": {
+      "checked": 10,
+      "skipped": 0,
+      "failed": 0,
+      "max_absolute_error": 2.637197404897762e-11,
+      "max_relative_error": 1.6049311402340012e-10
+    }
+  },
+  "records": [
+    {
+      "parameter": "W1",
+      "index": "509,7",
+      "analytic": 0.024008972569498535,
+      "numerical": 0.02400897256560341,
+      "absolute_error": 3.895123806829659e-12,
+      "relative_error": 8.11180860794948e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "15,5",
+      "analytic": 0.048761366234874454,
+      "numerical": 0.04876136623366278,
+      "absolute_error": 1.2116765923941841e-12,
+      "relative_error": 1.242455540081483e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "216,3",
+      "analytic": -0.08035876298833697,
+      "numerical": -0.08035876297718403,
+      "absolute_error": 1.115293968290132e-11,
+      "relative_error": 6.939467003302414e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "363,4",
+      "analytic": 0.0,
+      "numerical": 0.0,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "459,4",
+      "analytic": 0.035526134500357166,
+      "numerical": 0.03552613450086284,
+      "absolute_error": 5.056718932472393e-13,
+      "relative_error": 7.116899999893834e-12,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "329,1",
+      "analytic": 0.13314162144768824,
+      "numerical": 0.1331416214611636,
+      "absolute_error": 1.3475359716963453e-11,
+      "relative_error": 5.0605361305352726e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "353,4",
+      "analytic": 0.02513022341059529,
+      "numerical": 0.02513022339112325,
+      "absolute_error": 1.947204203434083e-11,
+      "relative_error": 3.8742278020646306e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "662,7",
+      "analytic": 0.0,
+      "numerical": 0.0,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "394,7",
+      "analytic": 0.0,
+      "numerical": 0.0,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "175,7",
+      "analytic": 0.0,
+      "numerical": 0.0,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "297,5",
+      "analytic": 0.030450712146255825,
+      "numerical": 0.030450712151797173,
+      "absolute_error": 5.541348629956033e-12,
+      "relative_error": 9.098881830475004e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "588,6",
+      "analytic": 0.0,
+      "numerical": 0.0,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "214,4",
+      "analytic": -0.013746863913863578,
+      "numerical": -0.013746863913866035,
+      "absolute_error": 2.456368441983159e-15,
+      "relative_error": 8.934286603018292e-14,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "755,2",
+      "analytic": 0.0,
+      "numerical": 0.0,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "451,3",
+      "analytic": 0.005215239726476146,
+      "numerical": 0.005215239706757302,
+      "absolute_error": 1.9718843745353265e-11,
+      "relative_error": 1.890502145330478e-09,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "34,1",
+      "analytic": 0.0,
+      "numerical": 0.0,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "206,4",
+      "analytic": -0.01746839060877692,
+      "numerical": -0.017468390600683392,
+      "absolute_error": 8.093529318964343e-12,
+      "relative_error": 2.3166213482691267e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "656,5",
+      "analytic": -0.022524956664687013,
+      "numerical": -0.02252495665544529,
+      "absolute_error": 9.24172197103168e-12,
+      "relative_error": 2.0514405666795495e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "501,0",
+      "analytic": -0.0386941597315613,
+      "numerical": -0.03869415974300239,
+      "absolute_error": 1.1441084191154971e-11,
+      "relative_error": 1.478399359080988e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "W1",
+      "index": "313,6",
+      "analytic": 0.0,
+      "numerical": 0.0,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "parameter": "b1",
+      "index": "2",
+      "analytic": 0.0708356479499937,
+      "numerical": 0.0708356479695027,
+      "absolute_error": 1.9509005522166945e-11,
+      "relative_error": 1.3770612738132065e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "b1",
+      "index": "1",
+      "analytic": 0.18176738084127242,
+      "numerical": 0.18176738083575114,
+      "absolute_error": 5.521277879338982e-12,
+      "relative_error": 1.518775770952069e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "b1",
+      "index": "3",
+      "analytic": -0.0004222378849178879,
+      "numerical": -0.0004222378890972322,
+      "absolute_error": 4.179344316370542e-12,
+      "relative_error": 4.9490399191673105e-09,
+      "status": "passed"
+    },
+    {
+      "parameter": "b1",
+      "index": "0",
+      "analytic": -0.001665894512410962,
+      "numerical": -0.001665894511226895,
+      "absolute_error": 1.1840669503909718e-12,
+      "relative_error": 3.5538473234362627e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "b1",
+      "index": "4",
+      "analytic": 0.043621539173631506,
+      "numerical": 0.043621539180804796,
+      "absolute_error": 7.1732897399812146e-12,
+      "relative_error": 8.222187794473272e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "b1",
+      "index": "7",
+      "analytic": 0.025723899181605572,
+      "numerical": 0.025723899188534457,
+      "absolute_error": 6.928884549450842e-12,
+      "relative_error": 1.3467796035898636e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "b1",
+      "index": "6",
+      "analytic": 0.0,
+      "numerical": 0.0,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "parameter": "b1",
+      "index": "5",
+      "analytic": 0.08341623352762129,
+      "numerical": 0.08341623352059457,
+      "absolute_error": 7.026712545155078e-12,
+      "relative_error": 4.2118375814249063e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "5,3",
+      "analytic": -0.16280334496433307,
+      "numerical": -0.1628033449607713,
+      "absolute_error": 3.561761996451196e-12,
+      "relative_error": 1.0938847716152477e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "5,0",
+      "analytic": 0.05325415770950255,
+      "numerical": 0.05325415770585095,
+      "absolute_error": 3.651599855825083e-12,
+      "relative_error": 3.4284645678460275e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "5,7",
+      "analytic": 0.049299222705093675,
+      "numerical": 0.04929922270413555,
+      "absolute_error": 9.5812247025151e-13,
+      "relative_error": 9.717419643634927e-12,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "4,7",
+      "analytic": 0.00122821530856372,
+      "numerical": 0.001228215307236269,
+      "absolute_error": 1.3274511698191382e-12,
+      "relative_error": 5.4039839809879e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "0,9",
+      "analytic": 0.007617543392790553,
+      "numerical": 0.007617543396065684,
+      "absolute_error": 3.275131034430334e-12,
+      "relative_error": 2.14972916125817e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "7,7",
+      "analytic": 0.0034658366183441675,
+      "numerical": 0.003465836617699835,
+      "absolute_error": 6.443322438098864e-13,
+      "relative_error": 9.295479199155315e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "3,9",
+      "analytic": 0.020380392493500005,
+      "numerical": 0.02038039248475343,
+      "absolute_error": 8.746576379836668e-12,
+      "relative_error": 2.1458311915492095e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "4,3",
+      "analytic": 0.002695561165875993,
+      "numerical": 0.002695561152066261,
+      "absolute_error": 1.3809732003766673e-11,
+      "relative_error": 2.561569036897262e-09,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "4,0",
+      "analytic": 0.0019527382013051168,
+      "numerical": 0.0019527382155715143,
+      "absolute_error": 1.4266397525136698e-11,
+      "relative_error": 3.652921181008211e-09,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "4,2",
+      "analytic": 0.0019530873118577745,
+      "numerical": 0.0019530873140993774,
+      "absolute_error": 2.2416029536037607e-12,
+      "relative_error": 5.738614292120871e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "0,3",
+      "analytic": 0.0006770799163439886,
+      "numerical": 0.0006770799254596226,
+      "absolute_error": 9.115634028861175e-12,
+      "relative_error": 6.731579055482862e-09,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "1,0",
+      "analytic": 0.016397666278844134,
+      "numerical": 0.016397666291467772,
+      "absolute_error": 1.2623638245834456e-11,
+      "relative_error": 3.8492179394033804e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "0,8",
+      "analytic": 0.005385179299149966,
+      "numerical": 0.005385179302486164,
+      "absolute_error": 3.3361985049551457e-12,
+      "relative_error": 3.097574211176536e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "0,6",
+      "analytic": 0.0064627166974002385,
+      "numerical": 0.006462716695132541,
+      "absolute_error": 2.2676973146507073e-12,
+      "relative_error": 1.7544458632704652e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "2,0",
+      "analytic": 0.00011125085454449286,
+      "numerical": 0.00011125085297436498,
+      "absolute_error": 1.5701278845885527e-12,
+      "relative_error": 7.056700382649776e-09,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "6,4",
+      "analytic": 0.0,
+      "numerical": 0.0,
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "0,7",
+      "analytic": 0.003234476640746979,
+      "numerical": 0.0032344766420777655,
+      "absolute_error": 1.3307866093825726e-12,
+      "relative_error": 2.057190013902016e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "4,9",
+      "analytic": 0.0026227114539781244,
+      "numerical": 0.002622711448019288,
+      "absolute_error": 5.9588362889828606e-12,
+      "relative_error": 1.136006838783921e-09,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "3,3",
+      "analytic": 0.013670812237739811,
+      "numerical": 0.013670812260002661,
+      "absolute_error": 2.2262849549981034e-11,
+      "relative_error": 8.142475057332171e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "W2",
+      "index": "2,2",
+      "analytic": -0.0010933469965537228,
+      "numerical": -0.0010933469907214999,
+      "absolute_error": 5.832222942439569e-12,
+      "relative_error": 2.667141802363913e-09,
+      "status": "passed"
+    },
+    {
+      "parameter": "b2",
+      "index": "2",
+      "analytic": -0.15397718812839772,
+      "numerical": -0.15397718813314754,
+      "absolute_error": 4.749811655102576e-12,
+      "relative_error": 1.5423751117823268e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "b2",
+      "index": "5",
+      "analytic": -0.17657376546946044,
+      "numerical": -0.17657376545354705,
+      "absolute_error": 1.591338172346468e-11,
+      "relative_error": 4.506156869304032e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "b2",
+      "index": "8",
+      "analytic": 0.11840185938602722,
+      "numerical": 0.11840185938361002,
+      "absolute_error": 2.4172053247895064e-12,
+      "relative_error": 1.0207632453360941e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "b2",
+      "index": "0",
+      "analytic": 0.09108983340184817,
+      "numerical": 0.09108983338723674,
+      "absolute_error": 1.4611437060274568e-11,
+      "relative_error": 8.020344595970023e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "b2",
+      "index": "6",
+      "analytic": 0.11761597968538809,
+      "numerical": 0.11761597968895642,
+      "absolute_error": 3.568326190084292e-12,
+      "relative_error": 1.516939364691391e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "b2",
+      "index": "7",
+      "analytic": 0.07641741674902652,
+      "numerical": 0.07641741675001867,
+      "absolute_error": 9.921508059562711e-13,
+      "relative_error": 6.491653658015529e-12,
+      "status": "passed"
+    },
+    {
+      "parameter": "b2",
+      "index": "4",
+      "analytic": 0.0821592073083119,
+      "numerical": 0.08215920728193993,
+      "absolute_error": 2.637197404897762e-11,
+      "relative_error": 1.6049311402340012e-10,
+      "status": "passed"
+    },
+    {
+      "parameter": "b2",
+      "index": "9",
+      "analytic": 0.10802007811997827,
+      "numerical": 0.10802007812671376,
+      "absolute_error": 6.735487168008092e-12,
+      "relative_error": 3.117701488938459e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "b2",
+      "index": "1",
+      "analytic": -0.1798527491105937,
+      "numerical": -0.17985274909371182,
+      "absolute_error": 1.6881884778996437e-11,
+      "relative_error": 4.693251802731095e-11,
+      "status": "passed"
+    },
+    {
+      "parameter": "b2",
+      "index": "3",
+      "analytic": -0.08330067194212831,
+      "numerical": -0.08330067196027358,
+      "absolute_error": 1.8145263069868633e-11,
+      "relative_error": 1.089142659047124e-10,
+      "status": "passed"
+    }
+  ],
+  "network": [
+    784,
+    8,
+    10
+  ],
+  "activation": "ReLU",
+  "dtype": "float64",
+  "initialization_seed": 42,
+  "batch_indices": [
+    3493,
+    57546,
+    8815,
+    19332
+  ],
+  "labels": [
+    3,
+    1,
+    5,
+    2
+  ],
+  "note": "抽样检查，仅覆盖所选参数与当前批次；不是全部输入上的正确性证明。"
+}

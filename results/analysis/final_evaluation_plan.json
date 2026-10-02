@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-10-02T08:36:49.327471+00:00",
+  "runs": [
+    "results/training/baseline_cpu_20261002",
+    "results/training/diagnosis_linear2_lr003_20261002"
+  ],
+  "checkpoint_selection": "每个模型/种子固定使用已保存的最低验证损失best.pt；不得根据测试结果重新选择。",
+  "representative_seed": 42,
+  "seed_reason": "固定使用第一枚实验种子展示混淆矩阵及错误样例，不根据测试准确率选择。",
+  "report_statistics": "主性能表与逐类召回率报告3个种子的均值及样本标准差；另附各次结果。",
+  "error_selection": "在seed42的Softmax测试错误中，按错误计数降序选择前6个有向混淆类别对，并列按类别编号；每对取原始索引最小的样本，展示三个模型的配对预测。",
+  "post_test_tuning": false,
+  "checkpoints": {
+    "results/training/baseline_cpu_20261002/mlp_seed42/best.pt": "d0a1543a2624e817dfdc47b218d55db7026fdd3b22fcc91386896878d9f6bbdf",
+    "results/training/baseline_cpu_20261002/mlp_seed44/best.pt": "54828d348a26be0feac5c9be4b88b4f69d418a312b0b2f0898dde51a6441ae78",
+    "results/training/baseline_cpu_20261002/mlp_seed43/best.pt": "b7e2c148ff33578107c2ac16115a2ab84d74cf9dc3f9e0b49a62302bc45c3d19",
+    "results/training/baseline_cpu_20261002/softmax_seed42/best.pt": "946ddafb5b85d6754aa7a8622691b15b8dbcc60069b40b990aeca259a4cecccb",
+    "results/training/baseline_cpu_20261002/linear2_seed43/best.pt": "a86dc2da64207c110180af725a2a47ca7c61281e1729226c57751f8b071c4788",
+    "results/training/baseline_cpu_20261002/linear2_seed44/best.pt": "d7b900159f835a4a8bf47579110f281cae349ed826489747dc47af69a7bd5ca0",
+    "results/training/baseline_cpu_20261002/softmax_seed44/best.pt": "615d55750a44d564ba22ae71a1f195ff8c4cf26f171df00e3cb43e3e6778d860",
+    "results/training/baseline_cpu_20261002/softmax_seed43/best.pt": "7296673ed7c4014c903fe91b592d4cf822ed1a4a40b4cc1b20705d0060d72749",
+    "results/training/baseline_cpu_20261002/linear2_seed42/best.pt": "54469a34339acc4f1f0f6dd96ea94973579c46d1da79eb748df27e2837c4600f",
+    "results/training/diagnosis_linear2_lr003_20261002/linear2_seed43/best.pt": "a609308684cc03fce048f8145598feff1454cb039203353d84374883a00edb15",
+    "results/training/diagnosis_linear2_lr003_20261002/linear2_seed44/best.pt": "b19beab5f66f2602866735c4ac9031af94d68b6340ae8721f8c4214cb68a0983",
+    "results/training/diagnosis_linear2_lr003_20261002/linear2_seed42/best.pt": "6ea37e0a428ed9e51fbf3e0615309502418cba976d681d8d2737e178ad09dde5"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-10-02T08:15:54.683383+00:00",
+  "baseline": "results/training/baseline_cpu_20261002",
+  "diagnosis": "results/training/diagnosis_linear2_lr003_20261002",
+  "model": "linear2",
+  "observation": "最后10轮训练和验证损失同步波动；seed44第30轮两者均明显上升。",
+  "hypothesis": "学习率0.01可能使后期参数更新幅度过大；只降低至0.003有望降低后期波动，但可能减慢收敛。",
+  "factor": "learning_rate",
+  "before": 0.01,
+  "after": 0.003,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 30,
+  "primary_metric": "第21至30轮验证损失的相邻轮次绝对差的均值，共9个差值；比较同种子配对结果及三种子均值。",
+  "secondary_metrics": [
+    "第21至30轮静态训练损失相邻绝对差均值",
+    "第21至30轮验证损失最大值减最小值",
+    "最低验证损失及该轮准确率",
+    "最后一轮验证损失与准确率",
+    "末轮与最佳验证损失之差"
+  ],
+  "interpretation": "仅对当前划分、模型、30轮预算和3个种子解释；稳定性改善与最佳性能提升分开判断。不据结果追加搜索。",
+  "test_set_used": false,
+  "baseline_history_sha256": {
+    "results/training/baseline_cpu_20261002/linear2_seed43/history.csv": "2307764a0ea16e65682a01943a9fc42e0a5f16601675ce564e977c5866a996ed",
+    "results/training/baseline_cpu_20261002/linear2_seed44/history.csv": "bb61e4093bc4298daa31298c5ee1eac435e8855af7eddcb1336f753cf2e4acc5",
+    "results/training/baseline_cpu_20261002/linear2_seed42/history.csv": "7b1fd31533aee13f39b9575cc73d7f717c76b4f19f8ddee27b7e80940274555f"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "audit_passed": true,
+  "baseline": "results/training/baseline_cpu_20261002",
+  "diagnosis": "results/training/diagnosis_linear2_lr003_20261002",
+  "plan_sha256": "7428fc61e5fe7f566f96a4816675eafc041d2ea78f7d17678ef74cd674f19bf5",
+  "changed_training_factors": [
+    "learning_rate"
+  ],
+  "source_split_and_initialization_equal": true,
+  "metric_definition": "第21至30轮验证损失的相邻轮次绝对差的均值，共9个差值；比较同种子配对结果及三种子均值。",
+  "records": [
+    {
+      "seed": 42,
+      "learning_rate": 0.01,
+      "late_val_step": 0.007518520768483484,
+      "late_train_step": 0.007670562832090592,
+      "late_val_range": 0.032809800910949705,
+      "best_val_loss": 0.4172262488365173,
+      "best_val_accuracy": 0.8554,
+      "best_epoch": 14,
+      "final_val_loss": 0.4187749747276306,
+      "final_val_accuracy": 0.8543,
+      "final_best_loss_gap": 0.0015487258911132673
+    },
+    {
+      "seed": 42,
+      "learning_rate": 0.003,
+      "late_val_step": 0.0023330525504218214,
+      "late_train_step": 0.0020450989203982806,
+      "late_val_range": 0.0061527150630951155,
+      "best_val_loss": 0.4152229338169098,
+      "best_val_accuracy": 0.8581,
+      "best_epoch": 25,
+      "final_val_loss": 0.41723114309310916,
+      "final_val_accuracy": 0.8571,
+      "final_best_loss_gap": 0.0020082092761993797
+    },
+    {
+      "seed": 43,
+      "learning_rate": 0.01,
+      "late_val_step": 0.007435774432288273,
+      "late_train_step": 0.00758100505722893,
+      "late_val_range": 0.019860254812240574,
+      "best_val_loss": 0.4139937919616699,
+      "best_val_accuracy": 0.8548,
+      "best_epoch": 20,
+      "final_val_loss": 0.42706449222564696,
+      "final_val_accuracy": 0.85,
+      "final_best_loss_gap": 0.013070700263977053
+    },
+    {
+      "seed": 43,
+      "learning_rate": 0.003,
+      "late_val_step": 0.0045269163343641455,
+      "late_train_step": 0.004592019223107226,
+      "late_val_range": 0.014721268367767326,
+      "best_val_loss": 0.4135339003562927,
+      "best_val_accuracy": 0.8578,
+      "best_epoch": 27,
+      "final_val_loss": 0.41785819873809815,
+      "final_val_accuracy": 0.8557,
+      "final_best_loss_gap": 0.004324298381805425
+    },
+    {
+      "seed": 44,
+      "learning_rate": 0.01,
+      "late_val_step": 0.01285692042774624,
+      "late_train_step": 0.013044259622361923,
+      "late_val_range": 0.04917810201644901,
+      "best_val_loss": 0.4178321265220642,
+      "best_val_accuracy": 0.8536,
+      "best_epoch": 25,
+      "final_val_loss": 0.4670102285385132,
+      "final_val_accuracy": 0.8359,
+      "final_best_loss_gap": 0.04917810201644901
+    },
+    {
+      "seed": 44,
+      "learning_rate": 0.003,
+      "late_val_step": 0.004970633729298913,
+      "late_train_step": 0.0050685910150739906,
+      "late_val_range": 0.017733903360366843,
+      "best_val_loss": 0.4151925001621246,
+      "best_val_accuracy": 0.8544,
+      "best_epoch": 29,
+      "final_val_loss": 0.4182671652317047,
+      "final_val_accuracy": 0.8549,
+      "final_best_loss_gap": 0.003074665069580096
+    }
+  ],
+  "paired": [
+    {
+      "seed": 42,
+      "late_val_step_delta": -0.005185468218061663,
+      "late_train_step_delta": -0.005625463911692312,
+      "late_val_range_delta": -0.02665708584785459,
+      "best_val_loss_delta": -0.0020033150196075433,
+      "best_val_accuracy_delta": 0.0026999999999999247,
+      "best_epoch_delta": 11,
+      "final_val_loss_delta": -0.001543831634521431,
+      "final_val_accuracy_delta": 0.0028000000000000247,
+      "final_best_loss_gap_delta": 0.0004594833850861124,
+      "late_val_step_reduction_percent": 68.96926107856709
+    },
+    {
+      "seed": 43,
+      "late_val_step_delta": -0.0029088580979241274,
+      "late_train_step_delta": -0.0029889858341217036,
+      "late_val_range_delta": -0.005138986444473248,
+      "best_val_loss_delta": -0.0004598916053771829,
+      "best_val_accuracy_delta": 0.0030000000000000027,
+      "best_epoch_delta": 7,
+      "final_val_loss_delta": -0.009206293487548811,
+      "final_val_accuracy_delta": 0.005700000000000038,
+      "final_best_loss_gap_delta": -0.008746401882171628,
+      "late_val_step_reduction_percent": 39.119773258492465
+    },
+    {
+      "seed": 44,
+      "late_val_step_delta": -0.007886286698447327,
+      "late_train_step_delta": -0.007975668607287933,
+      "late_val_range_delta": -0.03144419865608217,
+      "best_val_loss_delta": -0.002639626359939584,
+      "best_val_accuracy_delta": 0.0008000000000000229,
+      "best_epoch_delta": 4,
+      "final_val_loss_delta": -0.0487430633068085,
+      "final_val_accuracy_delta": 0.019000000000000017,
+      "final_best_loss_gap_delta": -0.046103436946868914,
+      "late_val_step_reduction_percent": 61.33884659835106
+    }
+  ],
+  "aggregate": {
+    "0.01": {
+      "late_val_step": {
+        "mean": 0.009270405209505998,
+        "sample_std": 0.0031062888302667646
+      },
+      "late_train_step": {
+        "mean": 0.009431942503893814,
+        "sample_std": 0.0031286788540920664
+      },
+      "late_val_range": {
+        "mean": 0.033949385913213094,
+        "sample_std": 0.014692107801652077
+      },
+      "best_val_loss": {
+        "mean": 0.4163507224400838,
+        "sample_std": 0.002063519542557857
+      },
+      "best_val_accuracy": {
+        "mean": 0.8546,
+        "sample_std": 0.0009165151389911761
+      },
+      "best_epoch": {
+        "mean": 19.666666666666668,
+        "sample_std": 5.507570547286101
+      },
+      "final_val_loss": {
+        "mean": 0.43761656516393027,
+        "sample_std": 0.025790882304046994
+      },
+      "final_val_accuracy": {
+        "mean": 0.8467333333333333,
+        "sample_std": 0.009625140691612416
+      },
+      "final_best_loss_gap": {
+        "mean": 0.021265842723846445,
+        "sample_std": 0.024849741195339264
+      }
+    },
+    "0.003": {
+      "late_val_step": {
+        "mean": 0.00394353420469496,
+        "sample_std": 0.0014122533946514992
+      },
+      "late_train_step": {
+        "mean": 0.003901903052859833,
+        "sample_std": 0.001625598769059981
+      },
+      "late_val_range": {
+        "mean": 0.012869295597076428,
+        "sample_std": 0.006008604908941117
+      },
+      "best_val_loss": {
+        "mean": 0.4146497781117757,
+        "sample_std": 0.0009664982802479231
+      },
+      "best_val_accuracy": {
+        "mean": 0.8567666666666667,
+        "sample_std": 0.0020550750189064124
+      },
+      "best_epoch": {
+        "mean": 27.0,
+        "sample_std": 2.0
+      },
+      "final_val_loss": {
+        "mean": 0.417785502354304,
+        "sample_std": 0.0005218228062068419
+      },
+      "final_val_accuracy": {
+        "mean": 0.8559000000000001,
+        "sample_std": 0.0011135528725659915
+      },
+      "final_best_loss_gap": {
+        "mean": 0.0031357242425283003,
+        "sample_std": 0.001159251203677439
+      }
+    }
+  },
+  "reduction_in_mean_late_val_step_percent": 57.4610374026455,
+  "all_seeds_less_volatile": true,
+  "test_set_used": false,
+  "caveats": [
+    "只比较3个种子和一个固定划分，不做总体显著性结论。",
+    "稳定性与最佳验证性能分别评价；降低学习率可能减慢早期收敛。",
+    "同一验证集用于选轮次和诊断；最终测试结果另行评价。"
+  ]
+}

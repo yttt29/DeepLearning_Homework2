@@ -1,0 +1,20 @@
+[
+  {
+    "model": "softmax",
+    "runs": 3,
+    "accuracy_mean": 0.8550333333333332,
+    "accuracy_sample_std": 0.0008736894948054222
+  },
+  {
+    "model": "linear2",
+    "runs": 3,
+    "accuracy_mean": 0.8546,
+    "accuracy_sample_std": 0.0009165151389911761
+  },
+  {
+    "model": "mlp",
+    "runs": 3,
+    "accuracy_mean": 0.8917333333333333,
+    "accuracy_sample_std": 0.0005773502691896263
+  }
+]
