@@ -6,13 +6,15 @@
 
 ## 提交内容与结果入口
 
-本仓库包含可运行源代码、README 和最终结果图表。
+本仓库包含可运行源代码、README、PDF 实验报告和最终结果图表。
+
+**报告入口：[实验报告.pdf](实验报告.pdf)**
 
 | 课程要求 | 对应文件 |
 |---|---|
 | 可运行源代码 | 根目录四个 Python 文件、`scripts/`、`configs/`、`environment.yml` |
 | 环境、命令、配置与随机种子说明 | 本 README |
-| PDF 实验报告 | `实验报告.pdf`（待补充） |
+| PDF 实验报告 | [实验报告.pdf](实验报告.pdf) |
 | 梯度检查结果 | [汇总](results/gradient_check/report.json)、[逐项结果](results/gradient_check/details.csv) |
 | 三模型性能表 | [性能汇总表](results/summary/performance.csv) |
 | 训练与验证曲线 | [三模型曲线](results/figures/baseline_learning_curves.png) |
@@ -127,7 +129,7 @@ python scripts/plot_learning_curves.py --baseline results/training/reproduce_bas
 ## 文件结构与提交检查
 
 ```text
-实验报告.pdf                         待补充
+实验报告.pdf                         完整实验报告
 README.md                            环境、运行命令、配置与随机种子
 源代码：data.py / models.py / train.py / evaluate.py
 environment.yml                      环境依赖
@@ -143,6 +145,6 @@ results/figures/                     四张最终图
 - [x] README：环境、命令、配置、随机种子
 - [x] 梯度检查结果、性能表、训练与验证曲线
 - [x] 混淆矩阵、逐类召回率、典型错误
-- [ ] PDF 实验报告
+- [x] PDF 实验报告
 
-PDF 完成后以 `实验报告.pdf` 放入根目录，并更新本 README 的入口与状态。提交时使用仓库当前版本的文件；截止时间、入口和打包格式以课程平台通知为准。
+提交时使用仓库当前版本的文件，包含 PDF 报告、可运行源码、README 及结果图表。GitHub 仓库用于保存材料，课程平台的提交仍需按通知完成；截止时间、入口和打包格式以课程平台通知为准。
