@@ -1,8 +1,0 @@
-[
-  {
-    "model": "linear2",
-    "runs": 3,
-    "accuracy_mean": 0.8436333333333333,
-    "accuracy_sample_std": 0.001357694123627773
-  }
-]
