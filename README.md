@@ -115,13 +115,3 @@ python evaluate.py --run results/training/reproduce_diagnosis --split test
 ```
 
 评价读取新训练的 `best.pt`，生成性能汇总、混淆矩阵、逐类召回率、预测与错误样本索引。测试结果不用于继续调参或重新选择模型。仓库未附旧模型权重，需完成上一步训练才能执行评价。
-
-### 4. 绘制新运行的学习曲线
-
-```bash
-python scripts/plot_learning_curves.py --baseline results/training/reproduce_baseline --diagnosis results/training/reproduce_diagnosis --out results/figures_reproduce
-```
-
-绘图脚本对应本实验的 30 轮和种子 42、43、44。报告中的训练曲线使用轮末固定模型在训练集上的 `train_eval_*` 指标，与同一模型的验证指标比较。中文图表需要 Arial Unicode MS、Noto Sans CJK SC、SimHei 或 Heiti TC 字体之一。
-
-```
