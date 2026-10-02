@@ -124,17 +124,4 @@ python scripts/plot_learning_curves.py --baseline results/training/reproduce_bas
 
 绘图脚本对应本实验的 30 轮和种子 42、43、44。报告中的训练曲线使用轮末固定模型在训练集上的 `train_eval_*` 指标，与同一模型的验证指标比较。中文图表需要 Arial Unicode MS、Noto Sans CJK SC、SimHei 或 Heiti TC 字体之一。
 
-## 文件结构与提交检查
-
-```text
-实验报告.pdf                         完整实验报告
-README.md                            环境、运行命令、配置与随机种子
-源代码：data.py / models.py / train.py / evaluate.py
-environment.yml                      环境依赖
-requirements-macos-arm64.lock.txt    本次环境版本记录
-configs/                             基线与诊断配置
-scripts/                             数据准备、梯度检查与学习曲线绘制
-results/gradient_check/              梯度检查结果
-results/summary/                     最终性能表、逐类召回率表
-results/figures/                     四张最终图
 ```
